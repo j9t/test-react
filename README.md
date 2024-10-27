@@ -1,7 +1,7 @@
 # Test React
 
 * [x] Set up base app
-* [ ] Generate some content
+* [x] Generate some content
 * [ ] Generate some design
 * [ ] Set up Storybook
 * [ ] Generate some test components
