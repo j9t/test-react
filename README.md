@@ -2,7 +2,7 @@
 
 * [x] Set up base app
 * [x] Generate some content
-* [ ] Generate some design
+* [x] Generate some design [using Bootstrap]
 * [ ] Set up Storybook
 * [ ] Generate some test components
 * [ ] Set up some visual regression tests

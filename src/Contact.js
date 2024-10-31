@@ -2,9 +2,13 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div>
-      <h1>Contact</h1>
-      <p>You can reach us at webdevjokes@example.com</p>
+    <div className="container mt-5">
+      <div className="row">
+        <div className="col-md-12">
+          <h1 className="text-center mb-4">Contact</h1>
+          <p className="lead text-center">You can reach us at <a href="mailto:webdevjokes@example.com">webdevjokes@example.com</a>.</p>
+        </div>
+      </div>
     </div>
   );
 };
