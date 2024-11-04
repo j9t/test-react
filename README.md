@@ -4,7 +4,7 @@
 * [x] Generate some content
 * [x] Generate some design [using Bootstrap]
 * [x] Set up Storybook
-* [ ] Generate some test components
+* [x] Generate some test components
 * [ ] Set up some visual regression tests
 * [ ] Reformat all code
 * [ ] Deploy both app and Storybook to GitHub Pages
