@@ -6,7 +6,7 @@
 * [x] Set up Storybook
 * [x] Generate some test components
 * [x] Set up some visual regression tests
-* [ ] Reformat all code
+* [x] Reformat all code
 * [ ] Deploy both app and Storybook to GitHub Pages
 * [ ] Come up with other great things to do
 
