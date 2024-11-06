@@ -19,5 +19,10 @@
   ],
   "rules": {
     // Add your custom rules here
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }
