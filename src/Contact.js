@@ -1,9 +1,13 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import ContactForm from './components/ContactForm';
 
 const Contact = () => {
   return (
     <div className="container mt-5">
+      <Helmet>
+        <title>Contact</title>
+      </Helmet>
       <div className="row">
         <div className="col-md-12">
           <h1 className="text-center mb-4">Contact</h1>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import Jokes from './components/Jokes';
 
 const Home = () => {
@@ -22,6 +23,9 @@ const Home = () => {
 
   return (
     <div className="container mt-5">
+      <Helmet>
+        <title>Home</title>
+      </Helmet>
       <h1 className="text-center mb-4">Web Dev Jokes</h1>
       <Jokes jokes={jokes} />
     </div>
