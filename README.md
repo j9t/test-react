@@ -8,7 +8,7 @@
 * [x] Set up some visual regression tests
 * [x] Reformat all code [still needs attention]
 * [x] Add titles to all pages
-* [ ] Deploy both app and Storybook to GitHub Pages
+* [x] Deploy both [app](https://j9t.github.io/test-react/) and [Storybook](https://j9t.github.io/test-react/storybook/) to GitHub Pages
 * [ ] Come up with other great things to do
 
 (React default stuff below.)
