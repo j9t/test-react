@@ -1,38 +1,14 @@
 {
-  "name": "test-react",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "https://j9t.github.io/test-react",
-  "scripts": {
-    "build": "react-scripts build",
-    "deploy": "npm run build && gh-pages -d build && npm run storybook:build && gh-pages -d storybook-static -e storybook",
-    "eject": "react-scripts eject",
-    "lint:js": "eslint 'src/**/*.{js,jsx}' --fix",
-    "lint:css": "stylelint 'src/**/*.{css,scss}' --fix",
-    "lint": "npm run lint:js && npm run lint:css",
-    "predeploy": "npm run build",
-    "start": "react-scripts start",
-    "storybook": "storybook dev -p 6006",
-    "storybook:build": "storybook build",
-    "test": "jest"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest",
-      "plugin:storybook/recommended"
-    ]
-  },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
     ]
   },
   "dependencies": {
@@ -77,5 +53,29 @@
     "stylelint": "^16.10.0",
     "stylelint-config-standard": "^36.0.1",
     "webpack": "^5.96.1"
-  }
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:storybook/recommended",
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "homepage": "https://j9t.github.io/test-react",
+  "name": "test-react",
+  "private": true,
+  "scripts": {
+    "build": "react-scripts build",
+    "deploy": "npm run build && gh-pages -d build && npm run storybook:build && gh-pages -d storybook-static -e storybook",
+    "eject": "react-scripts eject",
+    "lint": "npm run lint:js && npm run lint:css",
+    "lint:css": "stylelint 'src/**/*.{css,scss}' --fix",
+    "lint:js": "eslint 'src/**/*.{js,jsx}' --fix",
+    "predeploy": "npm run build",
+    "start": "react-scripts start",
+    "storybook": "storybook dev -p 6006",
+    "storybook:build": "storybook build",
+    "test": "jest"
+  },
+  "version": "0.1.0"
 }
