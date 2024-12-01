@@ -40,7 +40,7 @@
     "@storybook/blocks": "^8.4.5",
     "@storybook/preset-create-react-app": "^8.4.5",
     "@storybook/react-webpack5": "^8.4.5",
-    "@storybook/test": "^8.4.5",
+    "@storybook/test": "^8.4.6",
     "babel-jest": "^29.7.0",
     "eslint": "^8.57.1",
     "eslint-plugin-storybook": "^0.10.2",
