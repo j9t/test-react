@@ -12,7 +12,7 @@
     ]
   },
   "dependencies": {
-    "@storybook/addon-actions": "^8.4.5",
+    "@storybook/addon-actions": "^8.4.6",
     "@storybook/addon-links": "^8.4.5",
     "@storybook/addons": "^7.6.17",
     "@storybook/react": "^8.4.5",
