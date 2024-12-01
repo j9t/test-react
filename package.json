@@ -25,7 +25,7 @@
     "react-helmet": "^6.1.0",
     "react-router-dom": "^6.28.0",
     "react-scripts": "5.0.1",
-    "sb": "^8.4.5",
+    "sb": "^8.4.6",
     "web-vitals": "^4.2.4"
   },
   "devDependencies": {
